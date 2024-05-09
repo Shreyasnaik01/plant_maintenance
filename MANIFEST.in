@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include logicaldna *.css
+recursive-include logicaldna *.csv
+recursive-include logicaldna *.html
+recursive-include logicaldna *.ico
+recursive-include logicaldna *.js
+recursive-include logicaldna *.json
+recursive-include logicaldna *.md
+recursive-include logicaldna *.png
+recursive-include logicaldna *.py
+recursive-include logicaldna *.svg
+recursive-include logicaldna *.txt
+recursive-exclude logicaldna *.pyc
