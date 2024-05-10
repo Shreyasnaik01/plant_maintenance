@@ -11,7 +11,18 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+fixtures =[
+	{"dt": "DocType", "filters":[
+		[
+			"name","in",[
+				"Item",
+				"Item Group",
+				"Item Manufacturer",
+				"Material Request"
+			]
+		]
+	]}
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/logicaldna/css/logicaldna.css"
 # app_include_js = "/assets/logicaldna/js/logicaldna.js"
